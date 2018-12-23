@@ -4,11 +4,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class ApiClient {
-
-    private static String BASE_URL = "https://";
-
     private static Retrofit retrofit = null;
-    public static Retrofit getClient() {
+    public static Retrofit getClient(String BASE_URL) {
         if (retrofit == null) {
             retrofit = new Retrofit.Builder()
                     .baseUrl(BASE_URL)
