@@ -15,3 +15,31 @@ allprojects {
  	}
  }
 ```
+Add the **dependency** in your app **build.gradle**
+```
+dependencies {
+   implementation 'com.github.ahmedatefabd:RetrofitLibrary:2.0'
+}
+```
+* **Maven**
+Add the JitPack repository to your build file
+```
+<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+Add the dependency
+```
+<dependency>
+	    <groupId>com.github.ahmedatefabd</groupId>
+	    <artifactId>RetrofitLibrary</artifactId>
+	    <version>Tag</version>
+	</dependency>
+```
+* **Usage**
+```
+ApiClient.getClient(BASE_URL).create(ApiInterface.class);
+```
