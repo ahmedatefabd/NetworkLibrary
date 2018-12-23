@@ -41,7 +41,7 @@ Add the dependency
 	    <version>Tag</version>
 	</dependency>
 ```
-### Usage
+* ### Usage
 ```
 ApiClient.getClient(BASE_URL).create(ApiInterface.class);
 ```
