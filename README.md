@@ -6,6 +6,7 @@ Type-safe HTTP client for Android and Java by Square, Inc.
 
 # Installation
 * **Gradle**
+
 Add jitpack.io to your root gradle file (project level) :
 ```
 allprojects {
@@ -22,6 +23,7 @@ dependencies {
 }
 ```
 * **Maven**
+
 Add the JitPack repository to your build file
 ```
 <repositories>
