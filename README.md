@@ -8,7 +8,7 @@ Type-safe HTTP client for Android and Java by Square, Inc.
 * **Gradle**
 
 Add jitpack.io to your root gradle file (project level) :
-```
+```sh
 allprojects {
  	repositories {
  		...
@@ -17,7 +17,7 @@ allprojects {
  }
 ```
 Add the **dependency** in your app **build.gradle**
-```
+```sh
 dependencies {
    implementation 'com.github.ahmedatefabd:RetrofitLibrary:2.0'
 }
@@ -25,7 +25,7 @@ dependencies {
 * **Maven**
 
 Add the JitPack repository to your build file
-```
+```sh
 <repositories>
 		<repository>
 		    <id>jitpack.io</id>
@@ -34,7 +34,7 @@ Add the JitPack repository to your build file
 	</repositories>
 ```
 Add the dependency
-```
+```sh
 <dependency>
 	    <groupId>com.github.ahmedatefabd</groupId>
 	    <artifactId>RetrofitLibrary</artifactId>
@@ -42,6 +42,6 @@ Add the dependency
 	</dependency>
 ```
 * ### Usage
-```
+```sh
 ApiClient.getClient(BASE_URL).create(ApiInterface.class);
 ```
